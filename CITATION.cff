@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this educational QAOA Max-Cut project, please cite the repository."
+title: "QAOA for Max-Cut"
+type: software
+version: 1.0.0
+year: 2026
+license: MIT
