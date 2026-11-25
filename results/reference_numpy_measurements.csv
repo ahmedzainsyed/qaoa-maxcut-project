@@ -1,0 +1,11 @@
+bitstring,count,probability,cut_value,partition
+0101,911,0.1822,4.0,"Group A: Node 0, Node 2 | Group B: Node 1, Node 3"
+1010,795,0.159,4.0,"Group A: Node 1, Node 3 | Group B: Node 0, Node 2"
+1100,506,0.1012,3.0,"Group A: Node 2, Node 3 | Group B: Node 0, Node 1"
+0110,484,0.0968,3.0,"Group A: Node 0, Node 3 | Group B: Node 1, Node 2"
+0011,452,0.0904,3.0,"Group A: Node 0, Node 1 | Group B: Node 2, Node 3"
+1001,446,0.0892,3.0,"Group A: Node 1, Node 2 | Group B: Node 0, Node 3"
+0010,284,0.0568,3.0,"Group A: Node 0, Node 1, Node 3 | Group B: Node 2"
+0111,277,0.0554,3.0,"Group A: Node 0 | Group B: Node 1, Node 2, Node 3"
+1101,271,0.0542,3.0,"Group A: Node 2 | Group B: Node 0, Node 1, Node 3"
+1000,265,0.053,3.0,"Group A: Node 1, Node 2, Node 3 | Group B: Node 0"

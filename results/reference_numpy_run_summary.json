@@ -1,0 +1,93 @@
+{
+  "project": "QAOA for Max-Cut",
+  "backend": "NumPy reference state-vector simulator",
+  "n_qubits": 4,
+  "n_edges": 5,
+  "qaoa_depth_p": 1,
+  "optimizer_steps_per_restart": 250,
+  "restarts": 10,
+  "shots": 5000,
+  "qaoa_expected_cut_exact_during_optimization": 3.2371089295120594,
+  "classical_exact_optimum": 4.0,
+  "approximation_ratio_expected_cut": 0.8092772323780149,
+  "optimal_bitstrings": [
+    "0101",
+    "1010"
+  ],
+  "optimal_sample_count": 1706,
+  "optimal_sample_probability": 0.3412,
+  "top_measurement_outcomes": [
+    {
+      "bitstring": "0101",
+      "count": 911,
+      "probability": 0.1822,
+      "cut_value": 4.0,
+      "partition": "Group A: Node 0, Node 2 | Group B: Node 1, Node 3"
+    },
+    {
+      "bitstring": "1010",
+      "count": 795,
+      "probability": 0.159,
+      "cut_value": 4.0,
+      "partition": "Group A: Node 1, Node 3 | Group B: Node 0, Node 2"
+    },
+    {
+      "bitstring": "1100",
+      "count": 506,
+      "probability": 0.1012,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 2, Node 3 | Group B: Node 0, Node 1"
+    },
+    {
+      "bitstring": "0110",
+      "count": 484,
+      "probability": 0.0968,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 0, Node 3 | Group B: Node 1, Node 2"
+    },
+    {
+      "bitstring": "0011",
+      "count": 452,
+      "probability": 0.0904,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 0, Node 1 | Group B: Node 2, Node 3"
+    },
+    {
+      "bitstring": "1001",
+      "count": 446,
+      "probability": 0.0892,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 1, Node 2 | Group B: Node 0, Node 3"
+    },
+    {
+      "bitstring": "0010",
+      "count": 284,
+      "probability": 0.0568,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 0, Node 1, Node 3 | Group B: Node 2"
+    },
+    {
+      "bitstring": "0111",
+      "count": 277,
+      "probability": 0.0554,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 0 | Group B: Node 1, Node 2, Node 3"
+    },
+    {
+      "bitstring": "1101",
+      "count": 271,
+      "probability": 0.0542,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 2 | Group B: Node 0, Node 1, Node 3"
+    },
+    {
+      "bitstring": "1000",
+      "count": 265,
+      "probability": 0.053,
+      "cut_value": 3.0,
+      "partition": "Group A: Node 1, Node 2, Node 3 | Group B: Node 0"
+    }
+  ],
+  "important_note": "This is a small simulator experiment. Exhaustive search is used only to verify the tiny instance; no quantum speedup or hardware advantage is claimed.",
+  "random_partition_expected_cut": 2.5
+}
